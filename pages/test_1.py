@@ -1,19 +1,29 @@
 import streamlit as st
 preguntas = [
-    "Una página web tiene un vídeo que muestra cómo hacer un gráfico o una tabla especial. Aprendería más:",
-    "Prefiero un presentador o un profesor que utilice:",
-    "Quiero aprender a tomar mejores fotos. Yo:",
-    "Quiero aprender sobre un nuevo proyecto. Me gustaría pedir:",
+    "Cuando estás aprendiendo algo nuevo, ¿cuál de las siguientes opciones encuentras más efectiva?:",
+    "Al recibir enseñanza de un profesor o presentador, ¿qué enfoque prefieres?:",
+    "¿Cómo mejorarías tus habilidades en fotografía?:",
+    "¿Qué haces si quieres obtener más información sobre un nuevo proyecto?:",
     "Quiero aprender a jugar un nuevo juego de mesa o de cartas. Yo:",
+    "Si quieres aprender a hacer algo en el ordenador,tú:",
+    "¿Qué te importa más a la hora de elegir una carrera o área de estudio?:",
+    "Quieres aprender a tocar una canción en un instrumento musical, ¿Qué método utilizarías?:",
+    "Al explorar información en Internet,¿Qué formato de contenido encuentras más efectivo para aprender?:",
+    "Cuando consideras tu estilo de aprendizaje en general,¿Qué enfoque se adapta mejor a ti?:",
     
 ]
 
 opciones = [
-    ["Escuchando.", "Viendo los diagramas.", "Leyendo las palabras.", "Viendo las acciones."],
-    ["Preguntas y respuestas, charlas, discusiones en grupo u oradores invitados.", "Diagramas, cuadros, mapas o gráficos.", "Folletos, libros o lecturas.",  "Demostraciones, modelos o sesiones prácticas.", ],
-    ["Comunicarme con otros a través del diálogo.", "Utilizar ejemplos visuales.", "Utilizar bien las palabras en las comunicaciones escritas.", "Trabajar con diseños, mapas o gráficos."],
-    ["Una conversación sobre el proyecto.", "Diagramas que muestren las etapas del proyecto con gráficos de beneficios y costes.", "Un informe escrito que describa las principales características del proyecto.", "Ejemplos en los que el proyecto se haya utilizado con éxito."],
+    ["Escuchar a alguien que me explique.", "Ver vídeos o imágenes.", "Leer instrucciones o artículos.", "Practicar o hacer algo tú mismo."],
+    ["Preguntas y respuestas, participar en charlas interactivas.", "Utilizar gráficos y mapas visuales.", "Explorar materiales de lectura atractivos.",  "Experimentar demostraciones prácticas.", ],
+    ["Haciendo preguntas sobre la cámara.", "Viendo ejemplos visuales.", "Siguiendo instrucciones escritas.", "Utilizando ejemplos de fotos."],
+    ["Participar en charlas sobre características clave.", "Observar esquemas visuales de éxito del proyecto.", "Un informe escrito que describa las principales características del proyecto.", "Experimentar con ejemplos prácticos referentes al proyecto."],
     ["Hablaría con alguien que haya jugado antes.", "Utilizaría los diagramas que explican las distintas fases, movimientos y estrategias del juego.",  "Leería las instrucciones.", "Observaría a otros jugar antes de unirme al juego."],
+    ["Escuchas un podcast.", "Ves vídeos tutoriales en Youtube.", "Lees las instrucciones", "Participas en demostraciones prácticas."],
+    ["Comunicarte con otros mediante conversaciones.", "Trabajar con diseños visuales.", "Comunicarte bien por escrito.", "Aplicar conocimientos en situaciones reales."],
+    ["Recibir consejos de alguien con experiencia en música.", "Ver algún tutorial práctico en Youtube.", "Lerr explicaciones claras sobre la interpretación de la canción.", "Seguir las partituras o las tablaturas paso a paso."],
+    ["Audios divertidos y educativos.", "Diseño visual atractivo.", "Textos explicativos interesantes.", "Vídeos prácticos y demostrativos."],
+    ["Participando en discusiones y foros.", "Identificando patrones y conexiones.", "Leyendo materiales variados.", "Aplicando ejemplos y casos prácticos."],
 
 ]
 
